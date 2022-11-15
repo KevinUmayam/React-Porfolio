@@ -1,16 +1,21 @@
 {
   "files": {
-    "main.css": "/react-porfolio/static/css/main.073c9b0a.css",
-    "main.js": "/react-porfolio/static/js/main.6eb5cb05.js",
+    "main.css": "/react-porfolio/static/css/main.f30897ea.css",
+    "main.js": "/react-porfolio/static/js/main.8d458dac.js",
     "static/js/787.b642d3ba.chunk.js": "/react-porfolio/static/js/787.b642d3ba.chunk.js",
-    "static/media/logo.svg": "/react-porfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/desert.jpeg": "/react-porfolio/static/media/desert.bfaed0334125e8140293.jpeg",
+    "static/media/5-6-7-8P1.png": "/react-porfolio/static/media/5-6-7-8P1.69a47113234ba0855fe2.png",
+    "static/media/teamgen.jpeg": "/react-porfolio/static/media/teamgen.a257c1b1f6dd97ef2c45.jpeg",
+    "static/media/weatherApp-P3.jpeg": "/react-porfolio/static/media/weatherApp-P3.e4c280f1393a955b020f.jpeg",
+    "static/media/fit-foodP2.jpeg": "/react-porfolio/static/media/fit-foodP2.2d7ca9091094c228ff9b.jpeg",
+    "static/media/kevin.jpg": "/react-porfolio/static/media/kevin.922ce57ddc22ea375650.jpg",
     "index.html": "/react-porfolio/index.html",
-    "main.073c9b0a.css.map": "/react-porfolio/static/css/main.073c9b0a.css.map",
-    "main.6eb5cb05.js.map": "/react-porfolio/static/js/main.6eb5cb05.js.map",
+    "main.f30897ea.css.map": "/react-porfolio/static/css/main.f30897ea.css.map",
+    "main.8d458dac.js.map": "/react-porfolio/static/js/main.8d458dac.js.map",
     "787.b642d3ba.chunk.js.map": "/react-porfolio/static/js/787.b642d3ba.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.6eb5cb05.js"
+    "static/css/main.f30897ea.css",
+    "static/js/main.8d458dac.js"
   ]
 }
