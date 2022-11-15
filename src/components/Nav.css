@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;600&family=Nunito+Sans:wght@300;400&family=Playfair+Display&family=Poppins&family=Roboto&display=swap");
+
+:root {
+  --black: #000000d0;
+  --white: #ffffff;
+  --darkgrey: rgb(51, 51, 51);
+}
+
+.font {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 400;
+  font-size: 1.3em;
+  align-items: center;
+}
+.color {
+  color: rgb(250, 158, 73);
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+.containers {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  padding-right: calc(var(--bs-gutter-x) * 0.5);
+  padding-left: calc(var(--bs-gutter-x) * 0.5);
+  margin-right: auto;
+  margin-left: auto;
+}
+.name {
+  margin: auto;
+}
+
+.nav-links {
+  display: block;
+  padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
+  font-size: var(--bs-nav-link-font-size);
+  font-weight: var(--bs-nav-link-font-weight);
+  color: rgb(255, 187, 0);
+  text-decoration: none;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out;
+}
+/* bottom Nav */
+
+.icons {
+  color: #ffffffd0;
+  width: 6vh;
+  height: 6vh;
+  margin: 1em;
+  transition: all 0.2s ease-in-out;
+}
+
+.icons:hover {
+  transform: scale(1.2);
+}
+
+li {
+  list-style: none;
+}
+
+.bottom {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 55px;
+
+  align-items: center;
+}

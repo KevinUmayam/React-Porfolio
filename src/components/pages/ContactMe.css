@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;600&family=Nunito+Sans:wght@300;400&family=Playfair+Display&family=Poppins&family=Roboto&display=swap");
+:root {
+  --black: #000000d0;
+  --white: #ffffff;
+  --darkgrey: rgb(51, 51, 51);
+}
+
+.font {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: bolder;
+}
+
+.Cbackground {
+  background-image: url("../pages/assets/desert.jpeg");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  position: fixed;
+  background-attachment: fixed;
+}
+
+.align {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: auto;
+  width: 100%;
+  height: 100%;
+  max-width: 30%;
+}
+
+.inputS {
+  background: transparent;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  border-bottom: 6px dotted rgb(243, 143, 49);
+  padding: 4px;
+  outline: none;
+}
+
+.inputT {
+  font-size: 1.4em;
+  text-align: center;
+  color: rgb(243, 143, 49);
+  margin-top: 2vh;
+}
+
+input::placeholder {
+  color: rgb(243, 143, 49);
+}
+
+textarea::placeholder {
+  color: rgb(243, 143, 49);
+}
+
+span,
+textarea {
+  border-radius: 20px;
+  background: transparent;
+}
+
+#btn {
+  background: var(--black);
+  padding: 8px;
+  border-radius: 10px;
+  border: none;
+}
+.error-text {
+  color: rgb(243, 143, 49);
+  text-align: center;
+  font-size: 1.3em;
+}
